@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "G9SHjZnVUIqilqKFuXloBPKSUkeV3ZacX4S78JnGeBc=",
+  "Source": "SecretFriendOrganizer.Api",
+  "BasePath": "_content/SecretFriendOrganizer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

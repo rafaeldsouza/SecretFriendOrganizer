@@ -1,0 +1,776 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projectVue\\SecretFriendOrganizerApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|Solution Items{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|C:\\projectVue\\SecretFriendOrganizerApi\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|Solution Items{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|Solution Items{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|C:\\projectVue\\SecretFriendOrganizerApi\\infra\\keycloak\\realm-export.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|Solution Items{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|solutionrelative:infra\\keycloak\\realm-export.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|Solution Items{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|C:\\projectVue\\SecretFriendOrganizerApi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|Solution Items{D5803559-5EBA-43E0-9788-482ED1E1CCAA}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|solutionrelative:secretfriendorganizerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|solutionrelative:secretfriendorganizerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizerapi\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|solutionrelative:secretfriendorganizerapi\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\interfaces\\repositories\\igroupmembershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\interfaces\\repositories\\igroupmembershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\repositories\\groupmembershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\repositories\\groupmembershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|solutionrelative:secretfriendorganizerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\keycloak\\keycloakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\keycloak\\keycloakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\secretfriendorganizer.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\secretfriendorganizer.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizerapi\\controllers\\keycloakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|solutionrelative:secretfriendorganizerapi\\controllers\\keycloakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\performdrawrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\performdrawrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\usergroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\usergroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\interfaces\\repositories\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\interfaces\\repositories\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\interfaces\\services\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\interfaces\\services\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\joingrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\joingrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\validgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\validgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\creategrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\creategrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C38843C-1DF8-42C4-B260-F3EBC0CC6FB8}|SecretFriendOrganizer.Domain\\SecretFriendOrganizer.Domain.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.domain\\entities\\groupmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C38843C-1DF8-42C4-B260-F3EBC0CC6FB8}|SecretFriendOrganizer.Domain\\SecretFriendOrganizer.Domain.csproj|solutionrelative:secretfriendorganizer.domain\\entities\\groupmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C38843C-1DF8-42C4-B260-F3EBC0CC6FB8}|SecretFriendOrganizer.Domain\\SecretFriendOrganizer.Domain.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.domain\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C38843C-1DF8-42C4-B260-F3EBC0CC6FB8}|SecretFriendOrganizer.Domain\\SecretFriendOrganizer.Domain.csproj|solutionrelative:secretfriendorganizer.domain\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\authenticateduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\authenticateduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\authenticateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\authenticateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\keycloaktoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\keycloaktoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\keycloakuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\keycloakuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C38843C-1DF8-42C4-B260-F3EBC0CC6FB8}|SecretFriendOrganizer.Domain\\SecretFriendOrganizer.Domain.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C38843C-1DF8-42C4-B260-F3EBC0CC6FB8}|SecretFriendOrganizer.Domain\\SecretFriendOrganizer.Domain.csproj|solutionrelative:secretfriendorganizer.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\interfaces\\services\\ikeycloakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\interfaces\\services\\ikeycloakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D9310-5623-44A3-AB09-9AA75C3F90A0}|SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj|solutionrelative:secretfriendorganizer.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.application\\dtos\\keycloakresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE025F57-E529-4ED0-AA31-2CC8936A84B8}|SecretFriendOrganizer.Application\\SecretFriendOrganizer.Application.csproj|solutionrelative:secretfriendorganizer.application\\dtos\\keycloakresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizerapi\\secretfriendorganizer.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|solutionrelative:secretfriendorganizerapi\\secretfriendorganizer.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2812C2AD-2AA4-4241-A65D-393260A721C3}|SecretFriendOrganizer.Tests\\SecretFriendOrganizer.Tests.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizer.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2812C2AD-2AA4-4241-A65D-393260A721C3}|SecretFriendOrganizer.Tests\\SecretFriendOrganizer.Tests.csproj|solutionrelative:secretfriendorganizer.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|c:\\projectvue\\secretfriendorganizerapi\\secretfriendorganizerapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{14E9BEA2-7D80-484F-BA8B-6ADC54C68BE1}|SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj|solutionrelative:secretfriendorganizerapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAAGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-12-12T17:14:06.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "realm-export.json",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\infra\\keycloak\\realm-export.json",
+              "RelativeDocumentMoniker": "infra\\keycloak\\realm-export.json",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\infra\\keycloak\\realm-export.json",
+              "RelativeToolTip": "infra\\keycloak\\realm-export.json",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-12T17:04:38.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserGroupDto.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\UserGroupDto.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\UserGroupDto.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\UserGroupDto.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\UserGroupDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:15:54.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KeycloakService.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Keycloak\\KeycloakService.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\Keycloak\\KeycloakService.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Keycloak\\KeycloakService.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\Keycloak\\KeycloakService.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAowPEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:06:18.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Program.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizerApi\\Program.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Program.cs",
+              "RelativeToolTip": "SecretFriendOrganizerApi\\Program.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAqwG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T23:46:57.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizerApi\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "SecretFriendOrganizerApi\\Controllers\\GroupController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:51:04.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAawDsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:56:03.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGroupMembershipRepository.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupMembershipRepository.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupMembershipRepository.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupMembershipRepository.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupMembershipRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:20:03.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GroupMembershipRepository.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\GroupMembershipRepository.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\Repositories\\GroupMembershipRepository.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\GroupMembershipRepository.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\Repositories\\GroupMembershipRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAnwBQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:40:22.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SecretFriendOrganizerApi\\appsettings.json",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\appsettings.json",
+              "RelativeToolTip": "SecretFriendOrganizerApi\\appsettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T18:27:32.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-07T00:05:48.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizerApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SecretFriendOrganizerApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAEwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:19:24.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Services\\GroupService.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Services\\GroupService.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Services\\GroupService.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAawI0AAAC9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:47:58.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\CreateUserRequest.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\CreateUserRequest.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\CreateUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:20:05.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SecretFriendOrganizer.Infrastructure",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\SecretFriendOrganizer.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T14:14:08.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PerformDrawRequest.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\PerformDrawRequest.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\PerformDrawRequest.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\PerformDrawRequest.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\PerformDrawRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:38:41.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KeycloakController.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Controllers\\KeycloakController.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizerApi\\Controllers\\KeycloakController.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Controllers\\KeycloakController.cs",
+              "RelativeToolTip": "SecretFriendOrganizerApi\\Controllers\\KeycloakController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:15:40.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\Repositories\\GroupRepository.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\GroupRepository.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\Repositories\\GroupRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwBwAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:27:24.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:24:09.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Services\\IGroupService.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Interfaces\\Services\\IGroupService.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Services\\IGroupService.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Interfaces\\Services\\IGroupService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:48:15.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateGroupRequest.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\CreateGroupRequest.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\CreateGroupRequest.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\CreateGroupRequest.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\CreateGroupRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:52:17.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:04:15.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGroupRepository.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupRepository.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupRepository.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupRepository.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Interfaces\\Repositories\\IGroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:53:13.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ValidGroupDto.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\ValidGroupDto.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\ValidGroupDto.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\ValidGroupDto.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\ValidGroupDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:53:34.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JoinGroupRequest.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\JoinGroupRequest.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\JoinGroupRequest.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\JoinGroupRequest.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\JoinGroupRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:57:21.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Domain\\Entities\\Group.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Domain\\Entities\\Group.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Domain\\Entities\\Group.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Domain\\Entities\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:48:51.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GroupMembership.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Domain\\Entities\\GroupMembership.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Domain\\Entities\\GroupMembership.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Domain\\Entities\\GroupMembership.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Domain\\Entities\\GroupMembership.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:49:43.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "KeycloakUser.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\KeycloakUser.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\KeycloakUser.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\KeycloakUser.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\KeycloakUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T23:07:56.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:29:59.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:28:13.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:46:40.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T23:08:58.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthenticatedUserDto.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\AuthenticatedUserDto.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\AuthenticatedUserDto.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\AuthenticatedUserDto.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\AuthenticatedUserDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA6wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:40:57.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthenticateUserRequest.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\AuthenticateUserRequest.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\AuthenticateUserRequest.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\AuthenticateUserRequest.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\AuthenticateUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:20:22.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Infrastructure\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Infrastructure\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Infrastructure\\Helpers\\JwtHelper.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA6wBIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:32:02.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "KeycloakToken.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\KeycloakToken.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\KeycloakToken.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\KeycloakToken.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\KeycloakToken.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:41:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IKeycloakService.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Services\\IKeycloakService.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\Interfaces\\Services\\IKeycloakService.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\Interfaces\\Services\\IKeycloakService.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\Interfaces\\Services\\IKeycloakService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:02:03.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:45:39.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\TokenResponse.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\TokenResponse.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\TokenResponse.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:28:43.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\ServiceResponse.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\ServiceResponse.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\ServiceResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T23:16:30.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "KeycloakResponse.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\KeycloakResponse.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Application\\DTOs\\KeycloakResponse.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Application\\DTOs\\KeycloakResponse.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Application\\DTOs\\KeycloakResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T21:54:08.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SecretFriendOrganizer.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "SecretFriendOrganizer.Tests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:37:21.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Dockerfile",
+              "RelativeDocumentMoniker": "SecretFriendOrganizerApi\\Dockerfile",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\Dockerfile",
+              "RelativeToolTip": "SecretFriendOrganizerApi\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-07T00:04:02.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SecretFriendOrganizer.Api.csproj",
+              "DocumentMoniker": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj",
+              "RelativeDocumentMoniker": "SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj",
+              "ToolTip": "C:\\projectVue\\SecretFriendOrganizerApi\\SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj",
+              "RelativeToolTip": "SecretFriendOrganizerApi\\SecretFriendOrganizer.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T23:43:00.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

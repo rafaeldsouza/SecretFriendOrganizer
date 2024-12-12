@@ -97,8 +97,8 @@ Special thanks to the contributors and the open-source community for providing t
 ## **Contact**
 For questions or support, please reach out to:
 
-Name: Rafael Conceição
-Email: rafaeldsouza@gmail.com
-GitHub: https://github.com/rafaeldsouza/SecretFriendOrganizer
+Name: Rafael Conceição \
+Email: rafaeldsouza@gmail.com \
+ GitHub: https://github.com/rafaeldsouza/SecretFriendOrganizer
 
 

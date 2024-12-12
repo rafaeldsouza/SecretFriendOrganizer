@@ -102,6 +102,6 @@ This project is licensed under the MIT License.
 ## **Contact**
 For questions or support, please reach out to:
 
-Name: Rafael Conceição
-Email: rafaeldsouza@gmail.com
+Name: Rafael ConceiÃ§Ã£o \
+Email: rafaeldsouza@gmail.com \
 GitHub: https://github.com/rafaeldsouza/SecretFriendOrganizer

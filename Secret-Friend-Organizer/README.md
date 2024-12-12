@@ -101,6 +101,6 @@ The **Secret Friend Organizer Frontend** demonstrates a solid implementation of 
 ## **Contact**
 For questions or support, please reach out to:
 
-Name: Rafael Conceição
-Email: rafaeldsouza@gmail.com
+Name: Rafael Conceição \
+Email: rafaeldsouza@gmail.com \
 GitHub: https://github.com/rafaeldsouza/SecretFriendOrganizer

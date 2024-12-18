@@ -250,6 +250,52 @@ namespace SecretFriendOrganizer.Infrastructure.Keycloak
             }
         }
 
+        public async Task<KeycloakResponse<KeycloakToken>> RefreshTokenAsync(string refreshToken)
+        {
+            try
+            {
+                var content = new FormUrlEncodedContent(new[]
+                {
+            new KeyValuePair<string, string>("grant_type", "refresh_token"),
+            new KeyValuePair<string, string>("client_id", _configuration["Keycloak:ClientId"]),
+            new KeyValuePair<string, string>("refresh_token", refreshToken),
+            new KeyValuePair<string, string>("client_secret", _configuration["Keycloak:ClientSecret"])
+        });
+
+                var response = await _httpClient.PostAsync($"{_configuration["Keycloak:BaseUrl"]}/realms/{_configuration["Keycloak:Realm"]}/protocol/openid-connect/token", content);
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return new KeycloakResponse<KeycloakToken>
+                    {
+                        Success = false,
+                        Message = "Failed to refresh token"
+                    };
+                }                
+
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true,
+                    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+                    AllowTrailingCommas = true
+                };
+                var tokenData = JsonSerializer.Deserialize<KeycloakToken>(responseContent, options);
+                var userId = JwtHelper.GetUserIdFromToken(tokenData.AccessToken);
+                tokenData.UserId = userId;
+                return new KeycloakResponse<KeycloakToken> { Success = true, Data = tokenData };
+               
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error refreshing token");
+                return new KeycloakResponse<KeycloakToken>
+                {
+                    Success = false,
+                    Message = "An error occurred while refreshing the token"
+                };
+            }
+        }
 
     }
 }

@@ -1,7 +1,10 @@
-﻿using SecretFriendOrganizer.Application.DTOs;
+﻿using Microsoft.Extensions.Logging;
+using SecretFriendOrganizer.Application.DTOs;
 using SecretFriendOrganizer.Application.Interfaces.Repositories;
 using SecretFriendOrganizer.Application.Interfaces.Services;
 using SecretFriendOrganizer.Domain.Entities;
+using System.Net.Http;
+using System.Text.Json;
 
 namespace SecretFriendOrganizer.Application.Services
 {
@@ -9,11 +12,13 @@ namespace SecretFriendOrganizer.Application.Services
     {
         private readonly IKeycloakService _keycloakService;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<UserService> _logger;
 
-        public UserService(IKeycloakService keycloakService, IUnitOfWork unitOfWork)
+        public UserService(IKeycloakService keycloakService, IUnitOfWork unitOfWork, ILogger<UserService> logger)
         {
             _keycloakService = keycloakService;
             _unitOfWork = unitOfWork;
+            _logger = logger;
         }
 
         public async Task<ServiceResponse> CreateUserAsync(string username, string email, string password)
@@ -40,21 +45,24 @@ namespace SecretFriendOrganizer.Application.Services
 
         public async Task<ServiceResponse<AuthenticatedUserDto>> AuthenticateUserAsync(string username, string password)
         {
-            // Autenticar no Keycloak
+
             var tokenResponse = await _keycloakService.AuthenticateAsync(username, password);
+            return await ProcessKeycloackResponse(tokenResponse);
+        }
+
+        private async Task<ServiceResponse<AuthenticatedUserDto>> ProcessKeycloackResponse(KeycloakResponse<KeycloakToken> tokenResponse)
+        {
             if (!tokenResponse.Success)
             {
                 return new ServiceResponse<AuthenticatedUserDto> { Success = false, Message = tokenResponse.Message };
             }
 
-            // Buscar dados do usuário no banco
             var user = await _unitOfWork.Users.GetByKeycloakIdAsync(tokenResponse.Data!.UserId);
             if (user == null)
             {
                 return new ServiceResponse<AuthenticatedUserDto> { Success = false, Message = "User not found in database." };
             }
 
-            // Preencher o DTO com os dados necessários
             var authenticatedUserDto = new AuthenticatedUserDto
             {
                 UserId = user.Id.ToString(),
@@ -72,6 +80,25 @@ namespace SecretFriendOrganizer.Application.Services
                 Message = "Authentication successful.",
                 Data = authenticatedUserDto
             };
+        }
+
+        public async Task<ServiceResponse<AuthenticatedUserDto>> RefreshTokenAsync(string refreshToken)
+        {
+            try
+            {
+                var tokenResponse = await _keycloakService.RefreshTokenAsync(refreshToken);
+                return await ProcessKeycloackResponse(tokenResponse);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error refreshing token");
+                return new ServiceResponse<AuthenticatedUserDto>
+                {
+                    Success = false,
+                    Message = "An error occurred while refreshing the token"
+                };
+            }
         }
     }
 }

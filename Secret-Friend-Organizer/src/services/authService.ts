@@ -15,12 +15,37 @@ class AuthService {
       localStorage.setItem('userId', data.data.user_id);
       localStorage.setItem('email', data.data.email);
       
-      // Calcular a data de expiração
-      const expiresIn = data.data.expires_in; // geralmente em segundos
+      const expiresIn = data.data.expires_in; 
       const expirationDate = new Date().getTime() + expiresIn * 1000;
       localStorage.setItem('tokenExpiration', expirationDate.toString());
     } catch (error) {
       console.error('Login failed:', error.message || error);
+    }
+  }
+
+  async refreshToken(): Promise<boolean> {
+    const refreshToken = localStorage.getItem('refreshToken');
+    if (!refreshToken) {
+      this.logout();
+      return false;
+    }
+
+    try {
+      const response = await api.post(`/User/refreshtoken`, { refreshToken });
+
+      const { accessToken, refreshToken: newRefreshToken, expiresIn } = response.data;
+
+      localStorage.setItem('accessToken', accessToken);
+      localStorage.setItem('refreshToken', newRefreshToken);
+
+      const expirationDate = new Date().getTime() + expiresIn * 1000; 
+      localStorage.setItem('tokenExpiration', expirationDate.toString());
+
+      return true;
+    } catch (error) {
+      console.error('Failed to refresh token:', error);
+      this.logout();
+      return false;
     }
   }
 
@@ -33,14 +58,22 @@ class AuthService {
     localStorage.removeItem('tokenExpiration');
   }
 
-  public isAuthenticated(): boolean {
+  async isAuthenticated(): Promise<boolean> {
     const token = localStorage.getItem('accessToken');
     const expirationDate = localStorage.getItem('tokenExpiration');
+  
     if (!token || !expirationDate) {
       return false;
     }
+  
     const now = new Date().getTime();
-    return now < parseInt(expirationDate);
+  
+    if (now >= parseInt(expirationDate)) {
+      const refreshed = await this.refreshToken();
+      return refreshed; 
+    }
+  
+    return true; 
   }
 
   public getAccessToken(): string | null {

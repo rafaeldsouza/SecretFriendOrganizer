@@ -7,7 +7,7 @@ namespace SecretFriendOrganizer.Application.Interfaces.Services
         Task<string?> GetAccessTokenAsync();
         Task<KeycloakResponse<string>> CreateUserAsync(string username, string email, string password);
         Task<KeycloakResponse> AddUserToGroupAsync(string userId, string groupId);
-
+        Task<KeycloakResponse<KeycloakToken>> RefreshTokenAsync(string refreshToken);
         Task<KeycloakResponse<KeycloakToken>> AuthenticateAsync(string username, string password);
     }
 }

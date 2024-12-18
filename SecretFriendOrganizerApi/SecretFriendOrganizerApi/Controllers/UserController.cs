@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SecretFriendOrganizer.Application.DTOs;
 using SecretFriendOrganizer.Application.Interfaces.Services;
+using SecretFriendOrganizer.Infrastructure.Keycloak;
 
 namespace SecretFriendOrganizer.Api.Controllers
 {
@@ -57,6 +58,29 @@ namespace SecretFriendOrganizer.Api.Controllers
             }
 
             return Ok(new { Message = result.Message, Data = result.Data });
+        }
+
+        /// <summary>
+        /// Refresh token
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [HttpPost("refreshtoken")]
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest request)
+        {
+            if (string.IsNullOrEmpty(request.RefreshToken))
+            {
+                return BadRequest(new { Message = "Refresh token is required" });
+            }
+
+            var tokenResponse = await _userService.RefreshTokenAsync(request.RefreshToken);
+
+            if (!tokenResponse.Success)
+            {
+                return Unauthorized(new { Message = "Failed to refresh token" });
+            }
+
+            return Ok(new { Message = tokenResponse.Message, Data = tokenResponse.Data });
         }
     }
 }

@@ -55,4 +55,4 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/assets/styles/signup.css"></style>
+<style src="/src/assets/styles/signup.css"></style>

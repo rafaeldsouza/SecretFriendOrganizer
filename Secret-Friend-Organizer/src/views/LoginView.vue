@@ -23,7 +23,7 @@ export default defineComponent({
   setup() {
     const username = ref('');
     const password = ref('');
-    const router = useRouter(); // Usar o router
+    const router = useRouter(); 
 
     const handleLogin = async () => {
       try {
@@ -31,7 +31,7 @@ export default defineComponent({
         if (authService.isAuthenticated()) {
           console.log('Login Successful');
           alert('Login Successful');
-          router.push({ name: 'HomeView' }); // Redirecionar para a Home
+          router.push({ name: 'UserGroupsView' });
         } else {
           alert('Login Failed');
         }

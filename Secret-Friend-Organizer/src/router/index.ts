@@ -10,13 +10,13 @@ const routes = [
   {
     path: '/',
     component: MainLayout,
-    children: [
-      { path: '', name: 'HomeView', component: HomeView },
+    children: [    
       { path: 'create-group', name: 'CreateGroupView', component: CreateGroupView, meta: { requiresAuth: true } },
       { path: 'user-groups', name: 'UserGroupsView', component: () => import('../views/UserGroupsView.vue'), meta: { requiresAuth: true } },
       { path: 'join-group', name: 'JoinGroupView', component: () => import('../views/JoinGroupView.vue'), meta: { requiresAuth: true } }
     ]
   },
+  { path: '', name: 'HomeView', component: HomeView },
   { path: '/login', name: 'LoginView', component: LoginView },
   { path: '/signup', name: 'SignUpView', component: SignUpView }
 ];
@@ -26,12 +26,14 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
-  if (to.matched.some(record => record.meta.requiresAuth) && !authService.isAuthenticated()) {
-    next({ name: 'LoginView' });
-  } else {
-    next();
+router.beforeEach(async (to, from, next) => {
+  if (to.matched.some(record => record.meta.requiresAuth)) {
+    const isAuthenticated = await authService.isAuthenticated();
+    if (!isAuthenticated) {
+      return next({ name: 'LoginView' });
+    }
   }
+  next(); 
 });
 
 export default router;

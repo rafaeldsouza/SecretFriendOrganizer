@@ -7,5 +7,6 @@ namespace SecretFriendOrganizer.Application.Interfaces.Services
     {
         Task<ServiceResponse> CreateUserAsync(string username, string email, string password);
         Task<ServiceResponse<AuthenticatedUserDto>> AuthenticateUserAsync(string username, string password);
+        Task<ServiceResponse<AuthenticatedUserDto>> RefreshTokenAsync(string refreshToken);
     }
 }
